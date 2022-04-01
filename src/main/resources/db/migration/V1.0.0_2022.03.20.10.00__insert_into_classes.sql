@@ -1,0 +1,13 @@
+insert into classes (id, name) values (1, 'Kotlin');
+insert into classes (id, name) values (2, 'Assembler');
+insert into classes (id, name) values (3, 'C#');
+insert into classes (id, name) values (4, 'JavaScript');
+insert into classes (id, name) values (10, 'C');
+insert into classes (id, name) values (11, 'Angular');
+insert into classes (id, name) values (12, 'Data Science');
+insert into classes (id, name) values (19, 'Linux');
+insert into classes (id, name) values (25, 'Algorithms');
+insert into classes (id, name) values (26, 'Java');
+insert into classes (id, name) values (33, 'Go');
+insert into classes (id, name) values (37, 'Spring');
+insert into classes (id, name) values (38, 'C++');
