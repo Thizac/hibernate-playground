@@ -8,12 +8,12 @@ create sequence cars_id_seq
 
 create table cars
 (
-    id      INT NOT NULL PRIMARY KEY default nextval('cars_id_seq'::regclass),
+    id      BIGINT NOT NULL PRIMARY KEY default nextval('cars_id_seq'::regclass),
     model   VARCHAR(50),
-    year    date,
+    year    VARCHAR(4),
     mark    VARCHAR(50),
     vin     VARCHAR(50),
-    user_id INT,
+    user_id BIGINT,
 
     CONSTRAINT fk_user FOREIGN KEY (USER_ID) REFERENCES USERS (ID)
 );

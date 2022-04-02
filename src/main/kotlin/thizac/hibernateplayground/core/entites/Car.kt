@@ -13,10 +13,10 @@ class Car(
     var year: String,
 
 
-    @Column(name = "id", nullable = false)
+    @Column(name = "mark", nullable = false)
     var mark: String,
 
-    @Column(name = "id", nullable = false)
+    @Column(name = "vin", nullable = false)
     var vin: String,
 
     @ManyToOne

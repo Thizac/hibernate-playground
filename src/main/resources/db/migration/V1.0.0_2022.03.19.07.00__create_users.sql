@@ -7,7 +7,7 @@ create sequence user_id_seq
 
 CREATE TABLE USERS
 (
-    id INT NOT NULL PRIMARY KEY default nextval('user_id_seq'::regclass),
+    id BIGINT NOT NULL PRIMARY KEY default nextval('user_id_seq'::regclass),
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     email VARCHAR(50),

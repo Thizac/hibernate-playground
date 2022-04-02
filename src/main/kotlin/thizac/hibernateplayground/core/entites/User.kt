@@ -21,6 +21,7 @@ class User(
     var email: String,
 
     @Column(name = "gender", nullable = false)
+    @Enumerated(EnumType.STRING)
     var gender: Gender,
 
     @Column(name = "city", nullable = false)
